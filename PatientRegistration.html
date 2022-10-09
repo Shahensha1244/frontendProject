@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <h1> PatientRegistration</h1>
+  </title>
+  <link href="PatientRegistration.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header class="headerClass">
+    <div class="logo"><img src="logo_hos.jpg" alt="hospital logo" ; width="100%" ; height="100%" ;> </div>
+    <div class="hospitalName">
+      <h1> Arogya Hospital Information Management System</h1>
+    </div><hr>
+  </header>
+  <div class="bodyClass">
+    <div class="PatitentRegistrationform">
+      <h1>Patitent Registration Form</h1>
+      <form>
+        <h3><u>Patient Personal Details</u></h3>
+        <label>Patient’s Name : </label>
+        <input type="text" name="Pname"><br>
+        <tr>
+          <td><br />
+            <label>Age : </label>
+            <input type="number" name="Age" min="1" max="2"><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /><label>Gender: </label>
+            <input type="radio" name="Female" value="gender">Female
+            <input type="radio" name="male" value="gender">Male
+            <input type="radio" name="Others" value="gender">Others
+          </td>
+        </tr><br>
+        <tr>
+          <td><br />
+            <label>Adhar Number : </label>
+            <input type="number" name="Adharnum"><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br />
+            <label>Contact Number : </label>
+            <input type="tel" name="Pnum"><br>
+          </td>
+        </tr>
+
+        <br>
+
+        <tr>
+          <td><br />
+            <label>Emergency Contact Number : </label>
+            <input type="tel" name="EmPnum"><br>
+          </td>
+        </tr>
+
+        <br>
+
+        <tr>
+          <td><br />
+            <label class="address">Complete Address : </label>
+            <textarea rows="4" cols="30">
+            </textarea><br>
+          </td>
+        </tr>
+
+      </form>
+      <hr>
+
+
+      <form>
+        <h3><u>Guardian’s Details</u></h3>
+        <label>Guardian’s Name : </label>
+        <input type="text" name="Gname"><br>
+
+        <tr>
+          <td><br />
+            <label>Age : </label>
+            <input type="number" name="Age" min="1" max="2"><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /><label>Gender: </label>
+            <input type="radio" name="Female" value="gender">Female
+            <input type="radio" name="male" value="gender">Male
+            <input type="radio" name="Others" value="gender">Others
+          </td>
+        </tr><br>
+        <tr>
+          <td><br />
+            <label>Adhar Number : </label>
+            <input type="number" name="Adharnum"><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br />
+            <label>Contact Number : </label>
+            <input type="tel" name="Pnum"><br>
+          </td>
+        </tr>
+        <br>
+
+        <tr>
+          <td><br />
+            <label class="gA">Complete Address : </label>
+            <textarea rows="4" cols="30">
+            </textarea><br>
+          </td>
+        </tr>
+
+      </form>
+      <hr>
+
+      <form>
+        <h3><u>COVID 19: Past 1 year information:</u> </h3>
+        <label>Patient’s Name : </label>
+        <input type="text" name="Pname"><br>
+
+        <tr>
+          <td><br />
+            <label>Travel in the past 1 Month?</label>
+        <tr>
+          <td><br /><br>
+            <input type="radio" name="yes">Yes
+            <input type="radio" name="no">No<br>
+          </td>
+        </tr><br />
+
+        <tr>
+          <td><br />
+            <label>Vaccine Doses</label>
+        <tr>
+          <td><br /><br>
+            <input type="radio" name="Dose">Dose-0
+            <input type="radio" name="Dose">Dose-1
+            <input type="radio" name="Dose">Dose-2<br>
+          </td>
+        </tr><br />
+
+        <tr>
+          <td><br />
+            <label>Date of last dose : </label>
+            <input type="date" name="Dose-date">
+            <br>
+          </td>
+        </tr><br />
+
+        <tr>
+          <td><br />
+            <label>Date of last Covid test : </label>
+            <input type="date" name="Dose-date">
+            <br>
+          </td>
+        </tr><br />
+
+
+        <tr>
+          <td><br />
+            <label class="AS">Any Symptoms? : </label>
+            <textarea rows="4" cols="30">
+            </textarea><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br />
+            <label>Insurance details(If any) : </label>
+
+            <label for="checkbtn"><input type="radio">Yes </label>
+
+            <label><input type="radio">No </label>
+            <input type="checkbox" id="checkbtn">
+            <ul id="listing">
+        <tr>
+          <td><label></label>Iinsurance membership </label>
+            <input type="text" name="insMember">
+          </td>
+        </tr><br><br>
+        <tr>
+          <td><label>Insurance Number </label>
+            <input type="number" name="insNumber">
+          </td>
+        </tr><br />
+        </ul>
+        <br>
+        </td>
+        </tr>
+        <hr>
+
+        <tr>
+          <td><label></label>Date of admission</label>
+            <input type="date" name="Dateof Admission">
+          </td>
+        </tr><br><br>
+
+        <tr>
+          <td>
+            <input type="submit" class="submit" name="Submit" value="Submit">
+          </td>
+        </tr><br><br>
+
+
+      </form>
+
+    </div>
+
+    <div class="optionsBar">
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="MedicineRecord.html">Medicine Record</a></li>
+        <li><a href="PatientRegistration.html">Patient’s Registration</a></li>
+        <li><a href="PatientProfile.html">Patient’s Profile</a></li>
+        <li><a href="ContactUs.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <footer class="footerClass">
+
+    <div class="footer">
+      <marquee behavior="scroll" direction="left"> © All Rights Reserved by Arogya Hospital @bitLabs.in </marquee>
+    </div>
+  </footer>
+
+</body>
+
+</html>

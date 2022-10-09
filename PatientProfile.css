@@ -1,0 +1,27 @@
+.headerClass{font-size:100%;box-sizing:border-box;position:relative;
+  width:100%;border-bottom:1px solid black;margin-bottom:10px;
+}
+
+.logo{width: 16%;
+    float: left;clear:both;}
+.hospitalName{float:left;width:84%;text-align:center;color: lightseagreen;font-size: 30px;background-color:lightgray;}
+
+.bodyClass{background-color: lightgray;box-sizing:border-box;
+  width:100%;border-bottom:1px solid black;display:inline-block;height: 600px;
+}
+ .footerClass{background-color:lightcoral;width:100%;height:10%;}
+.optionsBar{width:36%;padding: 5px;float: right;}
+.optionsBar ul{list-style: none;padding-left: 229px;}
+.optionsBar ul li  {font-size:22px;padding:10px;}
+.optionsBar ul li a{text-decoration: none;}
+.footer{text-align: center;font-size:30px;padding:5px;}
+.Full_Patitent_Details{display: none;}
+h3{text-align: center;font-size: 35px;}
+.button1{padding: 20px;background-color: lightcyan;font-size: 25px; margin: 10px 10px;display: block;}
+button a{text-decoration: none;}
+button:hover{background-color: lightgoldenrodyellow;}
+.button1 {text-decoration: none;}
+.search{width:60%;
+    float: left;padding: 28px;}
+.search .button1:nth-child(1){padding: 20px 36px 20px 35px;}
+.search .button1:nth-child(3){padding: 20px 45px 20px 45px;}
